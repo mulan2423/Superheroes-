@@ -4,8 +4,8 @@ const button = document.querySelector('#button');
 
 button.addEventListener('click', () => {
     const title = input.value;
-    const baseUrl = 'http://www.omdbapi.com/?s=batman&apikey=dd3a1236'
-    const movieUrl = 'http://www.omdbapi.com/?s=batman&apikey=dd3a1236';
+    const baseUrl = 'https://www.omdbapi.com/?s=batman&apikey=dd3a1236'
+    const movieUrl = 'https://www.omdbapi.com/?s=batman&apikey=dd3a1236';
     
 
     fetch(movieUrl)
